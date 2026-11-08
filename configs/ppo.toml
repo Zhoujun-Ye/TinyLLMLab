@@ -1,0 +1,12 @@
+[experiment]
+name = "first_ppo"
+seed = 42
+
+[training]
+algorithm = "ppo"
+
+[data]
+train = "data/processed/train.jsonl"
+validation = "data/processed/validation.jsonl"
+
+# Scaffold metadata only; no policy, critic, reference or trainer is implemented.

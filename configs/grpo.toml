@@ -1,0 +1,13 @@
+[experiment]
+name = "first_grpo"
+seed = 42
+
+[training]
+algorithm = "grpo"
+
+[data]
+train = "data/processed/train.jsonl"
+validation = "data/processed/validation.jsonl"
+
+# Scaffold metadata only. Choose model, group size, budget and hardware yourself.
+# No training hyperparameters or GPU launch are implied by this file.
